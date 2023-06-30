@@ -90,7 +90,7 @@ function Home({defaultPosts}) {
         {/** Description */}
         <meta name="description" content="Own Your Contents powered by BlockPen." key="description"></meta>
         <meta property="og:description" content="Own Your Contents powered by BlockPen." key="og_description"/>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/blocpen.png" />
       </Head>
       <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip bg-main">
         <div className="antialiased">
