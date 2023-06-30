@@ -19,7 +19,7 @@ export default function Post({ post, post_id }) {
         {/** Description */}
         <meta name="description" content={post.content?.data?.abstract} key="description"></meta>
         <meta property="og:description" content={post.content?.data?.abstract} key="og_description"/>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/blocpen.png" />
 
         {post.content?.media && post.content?.media.length > 0 &&
           <>
