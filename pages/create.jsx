@@ -22,7 +22,7 @@ export default function Create() {
         {/** Description */}
         <meta name="description" content="Discuss the future of BlocPen and experience the power of Open Social on our BlocPen Forum." key="description"></meta>
         <meta property="og:description" content="Discuss the future of Orbis and experience the power of Open Social on our BlocPen Forum." key="og_description"/>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/blocpen.png" />
       </Head>
       <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip bg-main">
         <div className="antialiased">
