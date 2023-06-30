@@ -84,12 +84,12 @@ function Home({defaultPosts}) {
     <>
       <Head>
         {/** Title */}
-        <title key="title">Make this your own community forum | Orbis</title>
-        <meta property="og:title" content="Make this your own community forum | Orbis" key="og_title" />
+        <title key="title">Own Your Contents | BlockPen</title>
+        <meta property="og:title" content="Own Your Contents | BlockPen" key="og_title" />
 
         {/** Description */}
-        <meta name="description" content="Build your own community forum powered by Orbis." key="description"></meta>
-        <meta property="og:description" content="Build your own community forum powered by Orbis." key="og_description"/>
+        <meta name="description" content="Own Your Contents powered by BlockPen." key="description"></meta>
+        <meta property="og:description" content="Own Your Contents powered by BlockPen." key="og_description"/>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip bg-main">
@@ -103,7 +103,7 @@ function Home({defaultPosts}) {
               <Header />
 
               {/* Hero section with main title and description */}
-              <Hero title="Make this your own community forum!" description="Respectful and good-faith discussion should be the cornerstone of any decision-making process. In trying to enact change, please keep this principle in mind." />
+              <Hero title="Own Your Contents!" description="Respectful and good-faith discussion should be the cornerstone of any decision-making process. In trying to enact change, please keep this principle in mind." />
 
               {/* Page content */}
               <section>
