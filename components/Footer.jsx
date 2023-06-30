@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Logo, TwitterIcon, GithubIcon } from "./Icons";
-import { OrbisLogo } from "./MainLogo"
+import { Logo, TwitterIcon, GithubIcon, OrbisLogo } from "./Icons";
 
 function Footer() {
   return (
